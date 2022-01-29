@@ -1,2 +1,2 @@
 # Python_DB_Scripting
-Python script to access a MSAccess Database
+A simple Python script to access a MSAccess Database. The DB is accessed using Microsoft Access Driver from python. The tables from the old DB is downloaded as CSV . Then they are read into a dataframe using pandas library. A same schema is created in a new DB using the script and the relational tables are preserved. The data from the CSV are read using pandas library and insert is performed on the tables of the new DB. 
